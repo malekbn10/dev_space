@@ -30,7 +30,7 @@ useEffect(async()=>{
       name:res.data.firstName + res.data.LastName , email:userId
     })
   })
-},[])
+},[user])
   
   return (
     <div className="max-w-4xl mx-auto">
